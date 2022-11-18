@@ -37,7 +37,7 @@ class Scraper:
 
     def output(self):
         nums = f'''
-        Price : | {self.price.text.replace("UAH", "")} UAH|
+        Price : | {self.price.text} |
         Percentage : | {self.usd_percentage.text} |
         '''
 
