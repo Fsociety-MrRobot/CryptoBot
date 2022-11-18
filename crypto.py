@@ -20,7 +20,7 @@ class Scraper:
 
         # main-vars
         self.coin = coin
-        self.url = f'https://coinmarketcap.com/uk/currencies/{self.coin}/'
+        self.url = f'https://coinmarketcap.com/currencies/{self.coin}/'
         self.headers = {
             'user-agent': 'YOUR USER-AGENT'}
 
